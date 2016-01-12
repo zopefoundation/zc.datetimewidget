@@ -4,7 +4,7 @@
   <adapter
       for="zope.schema.interfaces.IDatetime
            zope.publisher.interfaces.browser.IBrowserRequest"
-      provides="zope.app.form.browser.interfaces.ISimpleInputWidget"
+      provides="zope.formlib.interfaces.ISimpleInputWidget"
       factory=".datetimewidget.DatetimeWidget"
       permission="zope.Public"
       />
@@ -12,7 +12,7 @@
   <adapter
       for="zope.schema.interfaces.IDate
            zope.publisher.interfaces.browser.IBrowserRequest"
-      provides="zope.app.form.browser.interfaces.ISimpleInputWidget"
+      provides="zope.formlib.interfaces.ISimpleInputWidget"
       factory=".datetimewidget.DateWidget"
       permission="zope.Public"
       />
@@ -20,7 +20,7 @@
   <adapter
       for="zope.schema.interfaces.IDatetime
            zope.publisher.interfaces.browser.IBrowserRequest"
-      provides="zope.app.form.interfaces.IDisplayWidget"
+      provides="zope.formlib.interfaces.IDisplayWidget"
       factory=".datetimewidget.DatetimeDisplayWidget"
       permission="zope.Public"
       />
@@ -28,7 +28,7 @@
   <adapter
       for="zope.schema.interfaces.IDate
            zope.publisher.interfaces.browser.IBrowserRequest"
-      provides="zope.app.form.interfaces.IDisplayWidget"
+      provides="zope.formlib.interfaces.IDisplayWidget"
       factory=".datetimewidget.DateDisplayWidget"
       permission="zope.Public"
       />

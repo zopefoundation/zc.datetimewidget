@@ -5,7 +5,8 @@ CHANGES
 0.7.1 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Get rid of the ``zope.app.form`` dependency by using ``zope.formlib``
+  >= 4.0.
 
 
 0.7.0 (2011-06-07)
