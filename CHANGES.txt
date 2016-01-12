@@ -2,7 +2,7 @@
 CHANGES
 =======
 
-0.7.1 (unreleased)
+0.8.0 (2016-01-12)
 ------------------
 
 - Get rid of the ``zope.app.form`` dependency by using ``zope.formlib``
